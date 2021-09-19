@@ -15,7 +15,7 @@ const MUT = ".mute 1d"
 const SCXR = "🧚‍♂️Running script...."
 Neotro.addCommand({pattern: 'antispm', fromMe: true, deleteCommand: false, desc: Ln,}, (async (message, match) => {
 
-  var msg = await message.reply('👩‍🦰Preforming....');
+  var msg = await message.reply('🤖Preforming....');
 
   await message.client.sendMessage(
     message.jid,TMUTE, MessageType.text);
