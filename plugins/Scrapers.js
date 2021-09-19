@@ -81,7 +81,7 @@ if (config.LANG == 'SI') {
     dlang_lang = '▶භාශාව:'
     dlang_similarity = '🚀සමානකම්:'
     dlang_other = '👾වෙනත් භාශා:'
-    dlang_input = '👩‍🦰සැකසූ පෙළ:'
+    dlang_input = '🤖සැකසූ පෙළ:'
 }
 if (config.LANG == 'ML') {
     dlang_dsc = 'മറുപടി നൽകിയ സന്ദേശത്തിന്റെ ഭാഷ ess ഹിക്കുക.'
@@ -273,10 +273,10 @@ if (config.WORKTYPE == 'private') {
     }
     if (config.LANG == 'SI') {
         auto_dsc = 'සජීවි ලෙස ඔබේ bio තුල වේලාව පෙන්වයි!'
-        alr_on_bio = '👩‍🦰Autobio කලින්ම ක්‍රියාත්මකයි.!'
-        alr_off_bio = '👩‍🦰Autobio කලින්ම අක්‍රියයි.!'
-        succ_on_bio = '👩‍🦰Autobio සාර්තකව ක්‍රියාත්මක විය.!'
-        succ_off_bio = '👩‍🦰Autobio සාර්ථකත්ව අක්‍රීය විය!'
+        alr_on_bio = '🤖Autobio කලින්ම ක්‍රියාත්මකයි.!'
+        alr_off_bio = '🤖Autobio කලින්ම අක්‍රියයි.!'
+        succ_on_bio = '🤖Autobio සාර්තකව ක්‍රියාත්මක විය.!'
+        succ_off_bio = '🤖Autobio සාර්ථකත්ව අක්‍රීය විය!'
     }
     if (config.LANG == 'HI') {
         auto_dsc = 'अपने बायो में लाइव घड़ी जोड़ें!'
@@ -635,11 +635,11 @@ if (config.WORKTYPE == 'private') {
             }
 
         }
-        else if (match[1] === "usa" || match[1] === "Usa" || match[1] === "USA" || match[1] === "america" || match[1] === "America") {
+        else if (match[1] === "sl" || match[1] === "Sl" || match[1] === "SL" || match[1] === "lanka" || match[1] === "Srilanka") {
             try{
-                const respo = await got("https://coronavirus-19-api.herokuapp.com/countries/USA").then(async ok  => {
+                const respo = await got("https://coronavirus-19-api.herokuapp.com/countries/sri%20lanka").then(async ok  => {
                     resp = JSON.parse(ok.body);
-                    await message.reply(`🇺🇲 *Datas for USA:*\n😷 *Total Cases:* ${resp.cases}\n🏥 *Daily Cases:* ${resp.todayCases}\n⚰️ *Total Deaths:* ${resp.deaths}\n☠️ *Daily Deaths:* ${resp.todayDeaths}\n💊 *Total Recovered:* ${resp.recovered}\n😷 *Active Cases:* ${resp.active}\n🆘 *Critical Cases:* ${resp.critical}\n🧪 *Total Test:* ${resp.totalTests}`);
+                    await message.reply(`🇺🇲 *Datas for Sri Lanka:*\n😷 *Total Cases:* ${resp.cases}\n🏥 *Daily Cases:* ${resp.todayCases}\n⚰️ *Total Deaths:* ${resp.deaths}\n☠️ *Daily Deaths:* ${resp.todayDeaths}\n💊 *Total Recovered:* ${resp.recovered}\n😷 *Active Cases:* ${resp.active}\n🆘 *Critical Cases:* ${resp.critical}\n🧪 *Total Test:* ${resp.totalTests}`);
 
                 });
 
@@ -1075,9 +1075,9 @@ Asena.addCommand({pattern: 'yt ?(.*)', fromMe: false, desc: Lang.YT_DESC}, (asyn
         }
         else if (match[1] === "usa" || match[1] === "Usa" || match[1] === "USA" || match[1] === "america" || match[1] === "America") {
             try{
-                const respo = await got("https://coronavirus-19-api.herokuapp.com/countries/USA").then(async ok  => {
+                const respo = await got("https://coronavirus-19-api.herokuapp.com/countries/sri%20lanka").then(async ok  => {
                     resp = JSON.parse(ok.body);
-                    await message.reply(`🇺🇲 *Datas for USA:*\n😷 *Total Cases:* ${resp.cases}\n🏥 *Daily Cases:* ${resp.todayCases}\n⚰️ *Total Deaths:* ${resp.deaths}\n☠️ *Daily Deaths:* ${resp.todayDeaths}\n💊 *Total Recovered:* ${resp.recovered}\n😷 *Active Cases:* ${resp.active}\n🆘 *Critical Cases:* ${resp.critical}\n🧪 *Total Test:* ${resp.totalTests}`);
+                    await message.reply(`🇺🇲 *Datas for Sri Lanka:*\n😷 *Total Cases:* ${resp.cases}\n🏥 *Daily Cases:* ${resp.todayCases}\n⚰️ *Total Deaths:* ${resp.deaths}\n☠️ *Daily Deaths:* ${resp.todayDeaths}\n💊 *Total Recovered:* ${resp.recovered}\n😷 *Active Cases:* ${resp.active}\n🆘 *Critical Cases:* ${resp.critical}\n🧪 *Total Test:* ${resp.totalTests}`);
 
                 });
 
