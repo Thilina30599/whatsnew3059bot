@@ -25,5 +25,5 @@ Neotro.addCommand({pattern: 'clear', fromMe: true, desc: Lang.CLEAR, dontAddComm
 
     await message.sendMessage('```cleaning chat...```');
     await message.client.modifyChat (message.jid, ChatModification.delete);
-    await message.sendMessage('```👾 Chat cleared ```');
+    await message.sendMessage('```🧹Chat cleared🚮 ```');
 }));
