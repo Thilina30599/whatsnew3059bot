@@ -129,4 +129,42 @@ asena.addCommand({pattern: 'gn', fromMe: true, deleteCommand: true, desc: GN,}, 
                             message.jid,(r_text[i]), MessageType.text);
                     
                         }));
+        
+        asena.addCommand({pattern: 'Hi', fromMe: false, deleteCommand: true, desc: GN,}, (async (message, match) => {
+        
+                var r_text = new Array ();
+            
+                r_text[1] = "Hi";
+                r_text[2] ="*Hi*🙋‍♂️";
+                r_text[3] ="Hi👋";
+                r_text[4] ="Hey";
+                r_text[5] ="Hi";
+        
+              
+            
+                var i = Math.floor(6*Math.random())
+            
+                await message.client.sendMessage(
+                    message.jid,(r_text[i]), MessageType.text);
+            
+                }));
+        
+        asena.addCommand({pattern: 'hi', fromMe: false, deleteCommand: true, desc: GN,}, (async (message, match) => {
+        
+                var r_text = new Array ();
+            
+                r_text[1] = "Hi";
+                r_text[2] ="*Hi*🙋‍♂️";
+                r_text[3] ="Hi👋";
+                r_text[4] ="Hey";
+                r_text[5] ="Hi";
+        
+              
+            
+                var i = Math.floor(6*Math.random())
+            
+                await message.client.sendMessage(
+                    message.jid,(r_text[i]), MessageType.text);
+            
+                }));
 }   
