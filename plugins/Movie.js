@@ -31,6 +31,6 @@ Asena.addCommand({ pattern: 'movie ?(.*)', fromMe: td, desc: Lang.MOVIE }, (asyn
 	msg += 'Production : ' + json.Production + '\n\n';
 	msg += 'imdbRating : ' + json.imdbRating + '\n\n';
 	msg += 'imdbVotes  : ' + json.imdbVotes + '```';
-	msg += 'link       : ' + json.link + '\n\n*https://t.me/MovieClubFamily*';
+	msg += 'link       : ' + '\n\n*https://t.me/MovieClubFamily*';
 	await message.client.sendMessage(message.jid, msg, MessageType.text, { quoted: message.data });
 }));
