@@ -17,7 +17,7 @@ const Lang = Language.getString('_plugin');
 const NLang = Language.getString('updater');
 const ALang = Language.getString('amazone');
 
-let msg = Config.LANG == 'SI' || Config.LANG == 'AZ' ? '*Neotro වෙතින් අනුමත කරන ලද ප්ලගීනයකි.* ✅' : '*Officialy Approved* ✅'
+let msg = Config.LANG == 'SI' || Config.LANG == 'AZ' ? '*Public-Bot වෙතින් අනුමත කරන ලද ප්ලගීනයකි.* ✅' : '*Officialy Approved* ✅'
 let inmsg = Config.LANG == 'SI' || Config.LANG == 'AZ' ? '*අනුමත නොකරන ලද ප්ලගීනයකි!* ❌' : '*Not Approved* ❌'
 
 const heroku = new Heroku({
@@ -78,7 +78,7 @@ Asena.addCommand({pattern: 'nplug', fromMe: true, desc: ALang.PLUG }, (async (me
         plugins.map(
             (plugin) => {
                 let vf = plugin.dataValues.url.includes('Neotro23') ? msg : inmsg
-                mesaj += '```' + plugin.dataValues.name + '```: ' + '👩‍🦰 \n' + vf + '\n\n';
+                mesaj += '```' + plugin.dataValues.name + '```: ' + '🤖 \n' + vf + '\n\n';
             }
         );
         return await message.client.sendMessage(message.jid, mesaj, MessageType.text);
