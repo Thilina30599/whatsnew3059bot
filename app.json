@@ -3,9 +3,9 @@
     "description": "Amazone Alexa Is Powerfull whatsapp bot For Whatsapp",
     "logo": "https://telegra.ph/file/e8f3e419b3dafe9fe8153.jpg",
     "keywords": ["whatsapp", "userbot", "java", "button bot", "whatsapp", "api", "ai", "asena", "bug", "free rdp" ],
-    "repository": "https://www.github.com/jesonpro/ales",
+    "repository": "https://www.github.com/Thilina30599/whatsnew3059bot",
     "website":   "wa",
-    "success_url": "https://www.github.com/jesonpro",
+    "success_url": "https://www.github.com/Thilina30599",
     "stack": "container",
     "env": {
         "NEUTRO_SESSION": {
