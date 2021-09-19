@@ -38,7 +38,7 @@ Amazone.addCommand({pattern: 'menu', fromMe: tk, desc: Lang.MENU}, (async (messa
        
        const button = {
         buttonText: 'Click Me',
-        description: "🤖Public Bot මූලික විධාන ලැයිස්තු - Command panel",
+        description: "🤖Public Bot මූලික විධාන ලැයිස්තු",
         sections: sections,
         listType: 1
        }
