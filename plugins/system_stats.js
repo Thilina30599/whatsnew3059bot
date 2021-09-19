@@ -20,14 +20,14 @@ const Lang = Language.getString('system_stats');
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "\n\n*👩‍🦰Amazone Alexa*\n*💫🧚‍♀️Hey There Im Alive Now*\n\n*◉Version :► 6.2.1 (Public Release)*\n*◉Branch  :► Awsh*\n*◉About :► Amazone Alexa Is a Powerfull Bot For Whatsapp.*\n*◯●Github Link :►https://tinyurl.com/yhq3c6ms-\n\n*💫©Join Our Group*\n*▷📑News & Update Report*\n_◈https://chat.whatsapp.com/JdNWV3viiGKGINYNrb5oy8*\n▷⚡Official Pluggins Group* \n ◈https://chat.whatsapp.com/JJs2iwfF0VKL3IWrIyr7AT"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "\n\n*Public-Bot🤖*\n*💫🧚‍♀️Hey There Im Alive Now*\n\n*◉Version :► 6.2.1 (Public Release)*\n*◉Branch  :► Awsh*\n*◉About :► Amazone Alexa Is a Powerfull Bot For Whatsapp.*\n*◯●Github Link :►https://tinyurl.com/yhq3c6ms-\n\n*💫©Join Our Group*\n*▷📑News & Update Report*\n_◈https://chat.whatsapp.com/JdNWV3viiGKGINYNrb5oy8*\n▷⚡Official Pluggins Group* \n ◈https://chat.whatsapp.com/JJs2iwfF0VKL3IWrIyr7AT"})
 
     }
     else {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*👩‍🦰Powered By ʜᴀᴛᴢᴜʜᴏʟᴇ*' })
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*🤖Powered By ʜᴀᴛᴢᴜʜᴏʟᴇ*' })
      }
     }));
 
@@ -52,14 +52,14 @@ const Lang = Language.getString('system_stats');
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "\n\n*👩‍🦰Amazone Alexa*\n*💫🧚‍♀️Hey There Im Alive Now*\n\n*◉Version :► 6.2.1 (Public Release)*\n*◉Branch  :► Awsh*\n*◉About :► Amazone Alexa Is a Powerfull Bot For Whatsapp.*\n*◯●Github Link :►https://tinyurl.com/yhq3c6ms-\n\n*💫©Join Our Group*\n*▷📑News & Update Report*\n _◈https://chat.whatsapp.com/JdNWV3viiGKGINYNrb5oy8_\n*▷⚡Official Pluggins Group* \n _◈https://chat.whatsapp.com/JJs2iwfF0VKL3IWrIyr7AT_"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "\n\n*Public-Bot🤖*\n*💫🧚‍♀️Hey There Im Alive Now*\n\n*◉Version :► 6.2.1 (Public Release)*\n*◉Branch  :► Awsh*\n*◉About :► Public-Bot Is a Powerfull Bot For Whatsapp.*\n*◯●Github Link :►https://github.com/Thilina30599/whatsnew3059bot\n\n*💫©Join Our Group*\n*▷📑News & Update Report*\n _◈https://chat.whatsapp.com/JdNWV3viiGKGINYNrb5oy8_\n*▷⚡Official Pluggins Group* \n _◈https://chat.whatsapp.com/JJs2iwfF0VKL3IWrIyr7AT_"})
 
     }
     else {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*👩‍🦰Powered By ʜᴀᴛᴢᴜʜᴏʟᴇ*' })
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*🤖Powered By ʜᴀᴛᴢᴜʜᴏʟᴇ*' })
      }
     }));
 
