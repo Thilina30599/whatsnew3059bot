@@ -15,7 +15,7 @@ const YTV_DESC = "Youtube Video Downloader V2 ."
 const YT_NEED = "*need word!.*"
 const DWLOAD_VID = "*🎭Downloading Your Video...*"
 const YTV_UP = "*🚀Uploading Your Video...*"
-const NO_RESULT = "*🌀can't Find Anything...*"
+const NO_RESULT = "*😒Couldn't Find Anything...*"
 
 
 if (Config.WORKTYPE == 'private') {
