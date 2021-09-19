@@ -27,7 +27,7 @@ const Lang = Language.getString('system_stats');
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*🤖Powered By ʜᴀᴛᴢᴜʜᴏʟᴇ*' })
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*🤖Powered By Thilina*' })
      }
     }));
 
@@ -59,7 +59,7 @@ const Lang = Language.getString('system_stats');
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*🤖Powered By ʜᴀᴛᴢᴜʜᴏʟᴇ*' })
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*🤖Powered By Thilina*' })
      }
     }));
 
