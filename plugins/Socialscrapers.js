@@ -4,7 +4,7 @@ const axios = require('axios');
 const Config = require('../config');
 const Language = require('../language');
 const Lang = Language.getString('amazone');
-const capt = "🎭 *NeotroX* 🕊"
+const capt = "🎭 *Public-Bot* 🕊"
 
 if (Config.WORKTYPE == 'public') {
 	
